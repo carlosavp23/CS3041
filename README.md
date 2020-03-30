@@ -7,7 +7,7 @@ In this lab we will continue to develop our web app. You will learn to:
 - Use JavaScript to validate your forms
 
 **Note:** Teaching staff will evaluate your lab using Chrome Developer tools configured for an iPhone 6/7/8, so this is what you should be testing with. In Chrome, go to View -> Developer tools, and then make sure iPhone 6/7/8 is listed.
-![](https://github.com/CS3041-D20/lab3/blob/master/img/image1.png)
+![](https://github.com/cs3041-hci-D20/lab3/blob/master/img/image1.png)
 
 ## Task
 
@@ -78,7 +78,7 @@ Note that in the code below we add a label and an error message for each form fi
 
 ✔️ **Checkpoint:** For now, here’s what your register.html file should look like in a browser window. 
 Test your form and observe the different on-device keyboards that are displayed for each input type.
-![](https://github.com/CS3041-D20/lab3/blob/master/img/image3.png) 
+![](https://github.com/cs3041-hci-D20/lab3/blob/master/img/image3.png) 
 
 **Note:** Check this [quick tuto from Lab0](https://github.com/cs3041-hci-D20/lab0#4-create-your-gh-pages-branch) on how you can test your app online or offline
 
@@ -106,7 +106,7 @@ form {
 ```
 
 ✔️ Checkpoint: Here’s what things could look like now: 
-![](https://github.com/CS3041-D20/lab3/blob/master/img/image2.png)
+![](https://github.com/cs3041-hci-D20/lab3/blob/master/img/image2.png)
 
 **Step 7:** Ok. Time to style the error messages. We want these to float to the right of their corresponding fields, which we can do with the position: absolute property.
 ```
