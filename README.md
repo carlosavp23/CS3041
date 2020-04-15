@@ -4,7 +4,6 @@
 In this lab we will continue to develop our web app. You will learn to:
 
 - Create and style HTML 5 forms
-- Use JavaScript to validate your forms
 
 **Note:** Teaching staff will evaluate your lab using Chrome Developer tools configured for an iPhone 6/7/8, so this is what you should be testing with. In Chrome, go to View -> Developer tools, and then make sure iPhone 6/7/8 is listed.
 ![](https://github.com/cs3041-hci-D20/lab3/blob/master/img/image1.png)
@@ -124,7 +123,7 @@ form {
 ```
 Take a look in the browser. If all goes well, these should look something like post-it notes stuck on the right side of the form. 
 
-**Step 8:** When things look right, add a rule that changes the visibility property in .error to hidden. We’ll use JavaScript to make these error messages appear when they’re needed.
+**Step 8:** When things look right, add a rule that changes the visibility property in .error to hidden. 
 
 **Step 9:** Finally, we need to fix the Submit button. Here we’re using a special CSS attribute selector to apply a rule only to input elements with the “submit” type.  We will add an image to the button (see below). Also add rules for `width`, `height`, `margin`, and `font-size: 16px;`
 ```
