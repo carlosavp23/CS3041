@@ -11,7 +11,7 @@ In this lab we will continue to develop our web app. You will learn to:
 ## Task
 
 Create a registration form with validation similar to the following form (use iOS mobile device or simulator to open):
-https://users.wpi.edu/~esolovey/cs3041/lab3/location.html
+https://users.wpi.edu/~esolovey/cs3041/lab3/register.html
 
 ## Step-by-Step Tutorial
 
