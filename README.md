@@ -131,7 +131,7 @@ input[type='submit'] {
 	
 /* Add more rules here */
 	
--webkit-border-image: url("blueButton.png") 0 14 0 14 stretch;
+border-image: url("blueButton.png") 0 14 0 14 stretch;
 } 
 ```
 
