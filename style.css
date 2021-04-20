@@ -1,0 +1,155 @@
+header {
+ font-family: Futura, Trebuchet MS;
+ font-weight: bold condensed;
+ color: #ffffff; 
+ font-size: 30px;
+background-color: #AC2B37;
+text-align: center
+}
+
+header.secondary{
+text-align: left;   
+padding-left: 75px;
+}
+
+footer {
+ font-family: Futura, Trebuchet MS;
+ font-weight: bold condensed;
+ color: #ffffff;
+ font-size: 10px;
+background-color: #AC2B37;
+text-align: center;
+margin-top: 10px;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+ color: #000000;
+ font-size: 20px;
+}
+
+h1 {
+text-decoration:underline;
+font-family: Futura, Trebuchet MS;
+ font-weight: bold condensed;
+ color: #AC2B37;
+ font-size: 35px;
+text-align: center;
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold condensed;
+ color: black;
+ font-size: 25px;
+text-align: center;
+background-color: #DCDCDC;
+}
+
+ul{
+ font-family: Serif, Georgia;
+ font-style: normal;
+ color: #0000ff;
+ font-size: 18px;
+}
+
+#WPI{
+    /*center the image*/
+    	display: block; 
+    	width: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
+        padding: 25px;
+	background-color: #DCDCDC;
+}
+
+video{
+    /*center the image*/
+    	display: block;
+	width: 50%;
+        margin-left: auto;
+    	margin-right: auto;
+        padding:20px;
+	border: 5px solid black;
+	border-radius: 25px;
+	background-color: #DCDCDC;
+	object-fit:cover;
+}
+
+audio{
+    /*center the image*/
+    	display: block;
+	width: 50%;
+        margin-left: auto;
+    	margin-right: auto;
+        padding:20px;
+	border: 5px solid black;
+	border-radius: 25px;
+	background-color: #DCDCDC;
+	object-fit:cover;
+}
+
+#content {
+    padding:3px;
+}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
+}
+
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+button.back{
+ /*These lines override the previous styling of buttons*/
+border-image: url("greyButton.png");
+background: url("greyButton.png");
+background-size: cover;
+width:60px;
+height: 30px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:8px; }
+
+button {
+ /*center the button*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+ 
+margin-top: 5px;
+margin-bottom: 10px;
+ 
+/*add an image to your button*/
+border-image: url("orangeButton.png");
+background: url("orangeButton.png");
+background-size: cover;
+background-position:center center;
+
+/*set width and height for the button*/
+  height: 20%;
+  width: 100px;
+}
