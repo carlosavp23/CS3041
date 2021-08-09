@@ -166,3 +166,4 @@ input:valid {
 On Canvas, submit the following: 
 - a link to your Github repository
 - a link to your Web page (check this quick tuto on [how to create your webpage](https://github.com/cs3041-hci-D20/lab0#4-create-your-gh-pages-branch)).
+# CS3041
